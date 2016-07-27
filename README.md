@@ -13,6 +13,12 @@ By the end you will know:
 
 Shown at [PyZurich July 2016](https://www.meetup.com/pyzurich/events/231559803/).
 
+Get started:
+
+* [Introduction](http://nbviewer.jupyter.org/github/wildtreetech/forests-intro/blob/master/01-intro.ipynb)
+* [Hyper-parameter optimisation](http://nbviewer.jupyter.org/github/wildtreetech/forests-intro/blob/master/02-hyperparameters.ipynb)
+* [Customer churn prediction](http://nbviewer.jupyter.org/github/wildtreetech/forests-intro/blob/master/03-churn-prediction.ipynb)
+
 
 # Install instructions
 
