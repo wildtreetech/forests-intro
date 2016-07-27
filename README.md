@@ -27,8 +27,9 @@ This will create an environment with all the dependencies for these examples.
 
 # Try it
 
-To run the examples simply run `jupyter notebook` from a terminal in this
-directory.
+After setting up the dependencies, activate your `conda` environment with
+`source activate forests-intro`. To run the examples simply run
+`jupyter notebook` from a terminal in this directory.
 
 
 # Additional material
