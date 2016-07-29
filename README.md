@@ -13,7 +13,15 @@ By the end you will know:
 
 Shown at [PyZurich July 2016](https://www.meetup.com/pyzurich/events/231559803/).
 
-Get started:
+You can either [install](#install-instructions) python on your computer and
+run these notebooks or you can run them in the cloud by clicking the "binder"
+button below:
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/wildtreetech/forests-intro)
+
+(the service is free so sometimes they do maintenance etc and it isn't available)
+
+# Get started
 
 * [Introduction](http://nbviewer.jupyter.org/github/wildtreetech/forests-intro/blob/master/01-intro.ipynb)
 * [Hyper-parameter optimisation](http://nbviewer.jupyter.org/github/wildtreetech/forests-intro/blob/master/02-hyperparameters.ipynb)
@@ -24,7 +32,7 @@ Get started:
 
 [Anaconda](https://www.continuum.io/downloads) is a python distribution that
 is easy to install and contains a large number of commonly used libraries.
-Download anaconda and then from this directory run:
+Download anaconda, clone this repository, and then from this directory run:
 ```
 conda create -n forests-intro --file=environment.yml
 ```
@@ -40,10 +48,16 @@ After setting up the dependencies, activate your `conda` environment with
 
 # Additional material
 
+Two very nice (and pretty) explanations of how decision trees and neural
+networks work:
 * [Visual explanation of Decision trees][visualtrees]
 * [Neural network playground](http://playground.tensorflow.org/)
-* [Unbiased performance estimates][unbiased]
-* [Understanding Random Forests](https://github.com/glouppe/phd-thesis)
+
+How to get [Unbiased performance estimates][unbiased], read this to find
+out why you need to keep some of your data secret and use it only once
+
+Gilles Louppe's well written PhD thesis on [Understanding Random Forests](https://github.com/glouppe/phd-thesis). Much more precise and
+formal than my descriptions.
 
 [visualtrees]: http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 [unbiased]: http://betatim.github.io/posts/unbiased-performance/
