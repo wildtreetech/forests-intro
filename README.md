@@ -4,6 +4,8 @@ Trees and forests, robust estimators for the 99%.
 
 ---
 
+
+This is an interactive tutorial that will take about 60minutes.
 By the end you will know:
 
 * the basics of [`scikit-learn`](http://scikit-learn.org/stable/)
